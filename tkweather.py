@@ -2,6 +2,7 @@ import tkinter as tk
 import requests
 
 # Function to fetch weather data
+
 def get_weather():
     api_key = '3fc9568cf7494ad3beb185004241912'  # Replace with your WeatherAPI key
     city = entry_city.get().strip()
